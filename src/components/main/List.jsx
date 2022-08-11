@@ -34,7 +34,6 @@ function List() {
 
   const onIntersect = async ([entry], observer) => {
     // 타겟 엘리멘트가 교차영역에 있고, loading중이 아닐때
-
     if (entry.isIntersecting && !loading) {
       observer.unobserve(entry.target);
       await getPosts();
@@ -86,7 +85,6 @@ function List() {
   };
 
   const newlist = postlist.slice(0, posts.length);
-  console.log(newlist);
   return (
     <>
       <StyledContainer>
