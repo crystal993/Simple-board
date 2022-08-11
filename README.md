@@ -159,7 +159,7 @@ C:.
     "id": 2
 },
   ],
-  "comments" : [
+  "comment_list" : [
    {
     "todoId": 1,
     "username": "김경문",
